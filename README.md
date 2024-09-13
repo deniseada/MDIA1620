@@ -7,7 +7,7 @@ A *cool* repository for my MDIA
 1. 3 Aha
    - Opening the terminal
    - Navigating certain files in the terminal
-   - Cards
+   - How tedious is was using cards
 2. 2 unclear
    - How github works/navigation
    - Your dogs name :(
