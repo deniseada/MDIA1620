@@ -4,14 +4,13 @@ Denise Aquino
 A *cool* repository for my MDIA 
 
 ---------
-1. 3 Aha
+1. 3 Aha moment
    - Opening the terminal
    - Navigating certain files in the terminal
    - How tedious is was using cards
-2. 2 unclear
+2. 2 Things unclear
    - How github works/navigation
    - Your dogs name :(
-   - nothing else
 3. 1 word for how you're feeling
    - Tired
 
