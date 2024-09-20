@@ -16,6 +16,20 @@ A *cool* repository for my MDIA
 
 ![I love meat](https://th.bing.com/th/id/OIP.OarOrQNX6sjo_CBrly5B8QHaEK?rs=1&pid=ImgDetMain)
 
+
+3 things i've learned:
+- How to commit and push to git
+- How to create variables
+- camel format for naming variables
+
+2 things im confused about
+- Why i got stuck on git log
+- nothing else 
+
+1 word for how im feeling: calm
+
+
+
 code . - opens vscode
 
 git clone - clones repository
@@ -29,3 +43,5 @@ git push - push changes to a remote repository
 git pull - grabs changes from a remote repository
 
 git status - tell me the current status of my local repository
+
+
