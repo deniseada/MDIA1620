@@ -53,6 +53,7 @@ if (horseName !== "matcha"){
     console.log(horseName + " is lonely");
 }
 
+//lab5a
 if(!isHorseInside){
     console.log(`${horseName} is outside`);
 }else{
