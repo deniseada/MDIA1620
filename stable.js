@@ -51,12 +51,12 @@ if (horseName !== "matcha"){
     console.log(`${horseName} has come to visit the stables`);
 }else{
     console.log(horseName + " is lonely");
-};
+}
 
 if(!isHorseInside){
     console.log(`${horseName} is outside`);
 }else{
     console.log(`${horseName} is inside`);
-};
+}
 
 //false is always 0 true is above 0
