@@ -8,10 +8,9 @@ let horseAge = 123456;
 console.log(horseAge);
 
 let isHorseInside = true;
+
 console.log(isHorseInside);
-
 console.log(typeof 42);
-
 console.log(typeof horseName);
 console.log(typeof true);
 
