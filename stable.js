@@ -73,7 +73,7 @@ console.log(word.length);
 let horseNames = ["strawberry","coffee","milk",horseName];
 let horseAges = [10,4,2,horseAge];
 let horseLocation = ["inside", "inside", "outside", "outside"];
-let areHorsesInside = [true, true, outside, outside];
+let areHorsesInside = [true, true, false, false];
 
 //console.log(`Welcome to my stables! There are ${horseNames.length} horses staying here. Their names are: ${horseNames[0]}, ${horseNames[1]}, ${horseNames[2]}, ${horseNames[3]}`);
 console.log();
@@ -94,5 +94,6 @@ console.log(`${horseNames[2]} is ${horseLocation[2]}`);
 console.log(`${horseNames[3]} is ${horseLocation[3]}`);
 
 
+[1,2,3].length;
 
 
