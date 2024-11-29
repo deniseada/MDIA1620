@@ -28,7 +28,22 @@ A *cool* repository for my MDIA
 
 1 word for how im feeling: calm
 
+Lab 6:
+3 confusing things:
+- How to remove an item from an array.
+- Best way to add spaces to make it look more readable.
+- I forgot what const is.
 
+3 things you have solid:
+- How to output arrays.
+- How to add to an array.
+- How to push file into git, git add, git commit -m and git push.
+
+
+
+
+
+Cheat Sheet
 
 code . - opens vscode
 
