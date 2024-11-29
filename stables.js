@@ -255,7 +255,7 @@ horses = [matcha, penguin, knight];
 
 // Fancy! Another horse wants to be stabled! Create a variable that stores an object
 // literal of your new horse, and add it to your "horses" variable.
-let newHorse = {
+let bunny = {
     name: "bunny",
     nickname: "bun",
     favTreat: "carrots",
@@ -272,7 +272,7 @@ let newHorse = {
     }
 } 
 
-horses.push(newHorse);
+horses.push(bunny);
 
 
 // Initialize new property to your horses: a boolean that allows you to check if your horse
@@ -280,7 +280,7 @@ horses.push(newHorse);
 matcha.isHungry = true;
 penguin.isHungry = false;
 knight.isHungry = false;
-newHorse.isHungry = true;
+bunny.isHungry = true;
 
 console.log(horses);
 
@@ -288,7 +288,7 @@ console.log(horses);
 
 // We want to keep track of our horses and how they are doing. Paste the data structure
 // of our horse variable below so we can reference it. It is okay to comment it out.
-// [
+// 
 //     Horse {
 //       name: 'matcha',
 //       nickname: 'chacha',
@@ -339,7 +339,7 @@ console.log(horses);
 //       bloodType: 'B',
 //       isHungry: true
 //     }
-//   ]
+//  
 
 //---------------------- Growing business ----------------------//
 
@@ -348,8 +348,6 @@ availableStalls = 7;
 // Use the math operator to determine how many stables you should have left, given the number of
 // horses you've added.
 remainingStalls = availableStalls - horses.length;
-console.log(remainingStalls);
-
 
 // Express the following in code: If the variable that contains your remaining stalls
 // is less than 2, log out "We need to build more stalls", otherwise log out "We have
@@ -368,11 +366,14 @@ if (remainingStalls < 2){
 
 function latePaidFee (horse){
     latePayFee = 100;
-    totalFee = monthlyRent + latePayFee;
-    console.log(horses["name"] + totalFee);
+    for(let i = 0; i < horses.length ;i++){
+        lateRent = horses[i]["monthlyRent"] + latePayFee;
+        console.log(`${horses[i]["name"]} will owe $${lateRent} if they pay the rent late!`);
+}
 }
 
-latePaidFee(horses["monthlyRent"]);
+latePaidFee(horses);
+
 
 // Add loop that checks to find out if a certain horse likes a treat. If the horse does not like
 // the treat, log out their disatisfaction and check the next horse. Exit the loop when you find
@@ -389,21 +390,42 @@ for(let i = 0; i < horses.length ;i++){
 // Create and invoke a function that returns (not logs) the nickname of a chosen horse. Log out
 // the return value outside of the function.
 
-function nickName(){
-    
+// parameter should be the name of horse passing to function and function checks to see the nickname of horse.
+function nickName(horseName){
+        return horseName["nickname"];
 }
 
+console.log( horses[2]["name"] + "'s nickname is "+ nickName(horses[2]));
 
 //------------------------- Day to day operations -------------------------//
 
 // Create and invoke a function references one of your unique horse properties. It should
 // contain a conditional or a loop.
 
+
+
+
 // Morning! Create and invoke a function that moves all your horses outside. It should
 // log out statement indicating the horses have been moved to spend time in the sun.
 
+function horsesOutside(horses){
+    
+
+}
+
+
 // Initialize a method on your horses that moves them inside if they are outside, and
 // vice versa.
+// function calls horses inside calls horses outside if statement
+
+function horseLocationUpdate(){
+    if (!horseLocationUpdate){
+        horses.isInside = false;
+    }else{
+        horses.isInside = true;
+    }
+}
+
 
 // Food! Create and invoke a function that feeds your horses. If the horse is outside, it
 // should call them in, and then all horses should be fed a treat. Log the activity of
